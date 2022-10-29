@@ -1,19 +1,65 @@
 # Harmony In Mental Health
-James Nguyen (jam860@uw.edu)
-Shradha Shankar (Shradha1@uw.edu)
+James Nguyen (jam860@uw.edu) -
+Shradha Shankar (Shradha1@uw.edu) -
 Fengyuan Chen (fy0403@uw.edu)
 
-INFO-201: Technical Foundations of Informatics - The Information School - University of Washington -
+INFO-201: Technical Foundations of Informatics - The Information School -
+University of Washington -
 Autumn 2022
 
 ## Abstract
-Our main question is "How are students (high school students and college students)
-impacted by mental health?" We believe this question is important because mental
-health is often stigmatized. To address this concern, we plan to look at the different
-resources that students have tackled with mental health in their lives.
+> **"How are students (high school and college students) impacted by
+mental health?"**
+We believe this question is important
+because mental health is often stigmatized. To address this concern, we plan to
+look at the different resources that students have tackled with mental health in
+their lives.
 
 ## Keywords
-Mental Health, Resources, students
+- **_Mental Health_**
+- **_Students_**
+- **_Resources_**
 
 ## Introduction
-This project will
+This project will explore how mental health impacts youth across the United
+States. In order to help us better understand how to provide better resources
+to students, we will be exploring datasets that illuminate the problems that
+they face in regard to mental health. We will explore how indirect and direct
+stakeholders play a role in the mental health of youth. The datasets will
+explore some of the challenges that students face such as depression, anxiety,
+stress and more. Not only will we look at problems associated with young
+people, but we will also explore existing solutions students have used to
+tackle these problems. Existing solutions can include self-care resources to
+provided resources such as the counseling center. Our goal of the project is
+to ensure that more students, especially those in the University of Washington,
+learn ways to tackle some of the stress and anxiety they face including
+self-care and providing outside resources.
+
+## Problem Domain
+
+## Research Questions
+1. **What are the most common mental health problems students are facing?**
+This is important since there are many types of mental health issues that
+students are often faced with. We want to provide resources that everyone can do
+such as self-care, visiting the counseling center or mental health workshops
+in a student’s city.
+
+2. **In what ways have students found or sought out resources to address their
+mental health problem?**
+This is also another important question since some students address their
+mental health problems in a variety of ways, while others don’t address them at
+all. It’s important that students can find resources through e-mail, text
+messaging and events so that students can keep their mental health in-check.
+3. **What are the leading factors that impact a student’s mental health?**
+It’s important to realize that there are a multitude of external factors that
+can impact in addition to school. By learning what causes mental health
+problems for students, we can focus on finding a variety of resources that
+help with stressful situations.
+
+## The Dataset
+
+## Expected Implications
+
+## Limitations
+
+## References
