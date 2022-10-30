@@ -88,9 +88,57 @@ problems for students, we can focus on finding a variety of resources that
 help with stressful situations.
 
 ## The Dataset
+Before discussing the direct relationship between the dataset and the research question, 
+I would like to introduce the observations of our dataset. The rows in our dataset are our 
+observations, which are college students. The columns in our dataset are gender, age, 
+major, current year, CGPA, marital status, and whether they have the following different
+kinds of mental illnesses. First, in order to find the common psychological problems of 
+students, three common psychological disorders are selected in our dataset: depression, 
+anxiety and panic attack. through the dataset we can know whether students have one or 
+more of the three psychological disorders. Second, the dataset asks whether students seek 
+help from specialists or experience counseling, which answers the question of students' 
+perceptions and attitudes toward dealing with mental illnesses. Third, to find the main 
+factors affecting students' mental health, the dataset collects information about students'
+school such as CPGA, major, current year, and other factors such as marital status. These 
+data allow us to explore the real causes of students' psychological problems.
+
+Here is the URL of origin of the dataset, you can also see this dataset from our program 
+folder in Github: https://www.kaggle.com/datasets/shariful07/ student-mental-health?resource=download
+
+MD SHARIFUL ISLAM, the creator of this dataset, wanted to use this dataset to explore the 
+impact of mental health on CGPA. He collected the data through Google Form, and no one has 
+funded the dataset. The only potential beneficiary is him personally, because he needs to 
+use this dataset to make conclusions about his research topic. The data is confirmed in 
+three ways: first, the link to this Google Form is only sent to the target student; second, 
+the student is asked to fill in a lot of school-related information (e.g., major, grade 
+level, etc.), which raises the threshold for intentional mischief; and third, this dataset 
+does not directly benefit anyone, so no one would intentionally falsify the data in it. 
+Therefore, we believe that this data can be relied upon. I got it through Kaggle, a free 
+dataset sharing site. I attribute this to the source of the data, because sometimes the 
+data is not publicly available or there is a fee.
 
 ## Expected Implications
+Some policymakers ignore students' mental health, while others place great importance on 
+students' mental health but do not understand the students' situation and needs. Through 
+our conclusions about the research questions, policymakers may have a basic knowledge about
+the mental health of college students. They may go through policies to provide better and 
+professional counseling services for college students. In addition, policy makers may also
+be aware of the sources of mental illness among students and develop relevant policies. 
+For example, if the primary cause of student mental illness is academic stress (as seen 
+in the CGPA), then policymakers may require universities to reconsider student workloads. 
+We think the results may deviate from the designer's expectations because in past studies 
+we have often discussed the impact of academic stress on mental health but ignored other 
+factors (e.g., marital status), and our study and data will answer this question.
 
 ## Limitations
+This study still has some limitations. First, the data set is not large enough nor diverse 
+enough; in other words, the data from a few dozen students at the same university is not 
+representative of the entire U.S. college population. To address this limitation, we can 
+only try to collect data from more schools and more regions to improve our dataset. Second,
+we did not list or explore all the factors that affect students' mental health, and the 
+incompleteness of the factors may lead to bias in our conclusions. As an analogy, it is 
+possible that a student's family background also affects a student's mental health (many 
+students have the stress of taking out loans). To address this shortcoming, we need to consider
+adding more factors and ensuring the accuracy of our conclusions through the control variables approach.
 
 ## References
