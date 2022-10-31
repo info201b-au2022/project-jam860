@@ -105,7 +105,7 @@ data allow us to explore the real causes of students' psychological problems.
 
 Here is the URL of origin of the dataset: https://www.kaggle.com/datasets/shariful07/student-mental-health?resource=download
 
-You can also see this dataset from our docs folder in Github as `~/project-jam860/data/"Student Mental health ——database.csv"`
+You can also see this dataset from our docs folder in Github as `~/project-jam860/data/"Student Mental health ——database.xlsx"`
 
 MD SHARIFUL ISLAM, the creator of this dataset, wanted to use this dataset to explore the
 impact of mental health on CGPA. He collected the data through Google Form, and no one has
