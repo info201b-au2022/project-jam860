@@ -103,9 +103,13 @@ factors affecting students' mental health, the dataset collects information abou
 school such as CPGA, major, current year, and other factors such as marital status. These
 data allow us to explore the real causes of students' psychological problems.
 
-Here is the URL of origin of the dataset: https://www.kaggle.com/datasets/shariful07/student-mental-health?resource=download
+Here is the URL of origin of the datasets:
+* https://www.kaggle.com/datasets/shariful07/student-mental-health?resource=download
+* https://data.world/vizzup/mental-health-depression-disorder-data
+* https://data.world/dcopendata/child-mental-health-providers
 
-You can also see this dataset from our docs folder in Github as `~/project-jam860/data/"Student Mental health ——database.xlsx"`
+
+You can also see the datasets from our docs folder in Github under `~/project-jam860/data/`
 
 MD SHARIFUL ISLAM, the creator of this dataset, wanted to use this dataset to explore the
 impact of mental health on CGPA. He collected the data through Google Form, and no one has
@@ -144,12 +148,15 @@ students have the stress of taking out loans). To address this shortcoming, we n
 adding more factors and ensuring the accuracy of our conclusions through the control variables approach.
 
 ## References
+Child Mental Health Providers. data.world. (2019, July 9). Retrieved November 10, 2022, from https://data.world/dcopendata/child-mental-health-providers
 
 Eva, A. (2019, January 11). How colleges today are supporting Student Mental Health. Greater Good. Retrieved October 30, 2022, from https://greatergood.berkeley.edu/article/item/how_colleges_today_are_supporting_student_mental_health
 
 Harris, B. R., Maher, B. M., &amp; Wentworth, L. (2022, April). Optimizing efforts to promote mental health on college and university campuses: Recommendations to facilitate usage of services, resources, and supports. The journal of behavioral health services &amp; research. Retrieved October 30, 2022, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8758218/
 
 Islam, S. (2022, May 11). Student Mental Health. Kaggle. Retrieved October 30, 2022, from https://www.kaggle.com/datasets/shariful07/student-mental-health/discussion?resource=download
+
+Mental health depression disorder data . data.world. (2020, April 16). Retrieved November 10, 2022, from https://data.world/vizzup/mental-health-depression-disorder-data
 
 Pickersgill, M. (2013). Sociotechnical innovation in Mental Health: Articulating Complexity. National Center for Biotechnology Information. Retrieved October 30, 2022, from https://pubmed.ncbi.nlm.nih.gov/26378337/
 
