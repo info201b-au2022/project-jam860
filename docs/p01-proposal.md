@@ -100,13 +100,13 @@ of psychological disorders. The third dataset collects the types and proportions
 of each psychological disorder in the last two years to help us do a deeper
 extension of the study. First, in order to find the common psychological problems
 of students, three common psychological disorders are selected in our dataset:
-depression, anxiety and panic attack. through the dataset we can know whether
+depression, anxiety and panic attack. Through the dataset we can know whether
 students have one or more of the three psychological disorders. Second, the dataset
 asks whether students seek help from specialists or experience counseling, which
 answers the question of students' perceptions and attitudes toward dealing with
 mental illnesses. Third, to find the main factors affecting students' mental health,
 the dataset collects information about students' school such as CPGA, major, current
-year, and other factors such as marital status. These data allow us to explore the
+year, and other factors such as marital status. This data allow us to explore the
 real causes of students' psychological problems.
 
 Here is the URL of origin of the datasets:
@@ -125,16 +125,16 @@ three ways: first, the link to this Google Form is only sent to the target stude
 the student is asked to fill in a lot of school-related information (e.g., major, grade
 level, etc.), which raises the threshold for intentional mischief; and third, this dataset
 does not directly benefit anyone, so no one would intentionally falsify the data in it.
-Therefore, we believe that this data can be relied upon.  I attribute this to the source
+Therefore, we believe that this data can be relied upon. I attribute this to the source
 of the data, because sometimes the data is not publicly available or there is a fee. The
 author of the second dataset is Kunal Chaturvedi, who wanted to explore the impact of Covid
-on the mental health of students. Similar to the first author, he also collected the data
+on the mental health of students. Similarly to the first author, he also collected the data
 through an online form. The rest of it can be referred to the first section. For the third
-dataset, his author is the Health and Family Welfare Department of Karnataka and aims to
+dataset, the author is the Health and Family Welfare Department of Karnataka, and aims to
 explore the situation and number of people with mental illness in different regions. The
-government will get these data directly through the health care system, which is very reliable
-in most cases, and there is no need for the government to cheat on this topic. I got these
-datasets through Kaggle, a free dataset sharing site.
+government receives their data directly through the health care system, which makes it very reliable
+in most cases. Because they are e government entity, there is no need for the government to
+cheat on this topic. These datasets were obtained through Kaggle, a free dataset sharing site.
 
 ## Expected Implications
 Some policymakers ignore students' mental health, while others place great importance on

@@ -26,7 +26,7 @@ kable(table, col.names = c("Age", "Socially Connected with People", "Hours of sl
 ```
 When looking at the state of students' mental health, it's important to consider how the connections with others impact a person's mental health and their habits. When we look at the correlations between the social connections, hours of sleep people receive, and meals eaten on average per day, we notice a couple of trends. Those that are more socially connected usually sleep less than those that aren't. In addition, those those that are socially connected eat more on average compared to those that aren't socially connected. Those that struggle with their mental health, tend to sleep more and eat less. Being socially connected to others can have a big impact on one's mental health and people's habits, whether it be with family or friends. We believe that building connections and relationships between students can have a positive impact on their mental health and some of their habits.  
 
-## Chart 1
+## Chart 1: Methods of Self-Care
 ```{r pressure, echo=FALSE}
 plot(chart_1)
 ```
