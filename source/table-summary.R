@@ -15,7 +15,7 @@ table <- dataset %>%
   group_by(age, connection_with_others) %>%
   summarize(time_sleeping_per_day = round(mean(time_sleeping), digits = 2), 
             meals_per_day = round(mean(meals_per_day), digits = 2)) %>%
-  filter(age <= 24 & age >= 18)
+  filter(age <= 23 & age >= 18)
 
 table$connection_with_others <- tolower(table$connection_with_others)
 table$connection_with_others <- str_to_title(table$connection_with_others)
