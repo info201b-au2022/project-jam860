@@ -1,7 +1,7 @@
 # This is the second chart.
 
 library("tidyverse")
-install.packages("stringr")
+# install.packages("stringr")
 library("dplyr")
 library("stringr")
 
@@ -15,7 +15,7 @@ relation_CGPA_mental <- SMH %>%
   group_by(What.is.your.CGPA.) %>%
   summarize(percentage_mental_illness = sum(as.numeric(has_mental_illness)))
 
-ggplot(data = relation_CGPA_mental, 
+chart_2 <- ggplot(data = relation_CGPA_mental, 
        aes(x= "", y=percentage_mental_illness, 
            fill=What.is.your.CGPA.))+ 
   geom_bar(stat = "identity") + 
