@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r table, echo=FALSE}
 library(knitr)
-kable(table, col.names = c("Age", "Socially Connected with People", "Hours of sleep", "Meals Eaten on average"), caption = "How the connection with others have an impact on one's mental health:")
+kable(table, col.names = c("Age", "Socially Connected with People", "Meals Eaten on average"), caption = "How the connection with others have an impact on one's mental health:")
 ```
 When looking at the state of students' mental health, it's important to consider how the connections with others impact a person's mental health and their habits. When we look at the correlations between the social connections and meals eaten on average per day, we notice a couple of trends. Those that are socially connected eat more on average compared to those that aren't socially connected. Those that struggle with their mental health seem to struggle more with unhealthier habits. Being socially connected to others can have a big impact on one's mental health and people's habits, whether it be with family or friends. We believe that building connections and relationships between students can have a positive impact on their mental health and some of their habits.  
 
