@@ -27,3 +27,4 @@ ggplot(data = relation_CGPA_mental,
 #column of three different mental illness and CGPA. The final result shows that 
 #students with higher CGPA normally more likely get mental illness. The reason is
 #that maintaining high GPA is hard and stressed.
+ 
