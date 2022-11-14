@@ -7,6 +7,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 source("/Users/jnguy/Documents/info201/projects/project-jam860/source/chart 1.R")
+source("/Users/jnguy/Documents/info201/projects/project-jam860/source/chart 2.R")
 source("/Users/jnguy/Documents/info201/projects/project-jam860/source/Aggregate Table Script.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -40,7 +41,7 @@ make the groups more readable. In addition, I saw students liked listening to mu
 playing video games, and more.
 
 ## Chart 2
-```{r pressure, echo=FALSE}
+```{r pressure1, echo=FALSE}
 plot(chart_2)
 ```
 
