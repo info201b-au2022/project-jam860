@@ -1,11 +1,12 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "Mental Health Awareness"
+author: "James Nguyen, Fengyuan Chen, Shradha Shankar"
+date: "11/13/2021"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
+source("/Users/jnguy/Documents/info201/projects/project-jam860/source/chart 1.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
@@ -43,12 +44,21 @@ When you click the **Knit** button a document will be generated that includes bo
 summary(cars)
 ```
 
-## Including Plots
+## Chart 1
 
-You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+plot(chart_1)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+This chart was included because I wanted to know the most popular ways in which
+students tended to their mental health through self-care. We believe that 
+there are many ways to take care of one's mental health that they can do either
+at home or by themselves. This bar graph reveals the top 7 methods that people 
+do to take care of their mental health. I also chose a horizontal bar graph to
+make the groups more readable. In addition, I saw students liked listening to music,
+playing video games, and more.
+
+## Chart 2
+
+## Chart 3
