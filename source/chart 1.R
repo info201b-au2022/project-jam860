@@ -6,7 +6,7 @@ library("ggplot2")
 library("tidyverse")
 library("stringr")
 
-data_all <- read.csv("/Users/jnguy/Documents/info201/projects/project-jam860/data/COVID-19 Survey Student Responses.csv")
+data_all <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/COVID-19%20Survey%20Student%20Responses.csv")
 data_all <- rename(data_all, self_care = Stress.busters)
 
 data <- data_all %>%
