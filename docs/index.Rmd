@@ -48,8 +48,3 @@ plot(chart_2)
 
 We decided to use a pie chart because we wanted to explore how one's GPA influences student's mental health brought by academic pressure. This pie chart depicts the relationship between student's CGPA and their mental health condition. It mainly uses  the 
 column of three different mental conditions (depression, anxiety and panic attack) and CGPA. The final result shows that students with a higher CGPA normally are more likely to have one of these conditions. Maintaining a high GPA is hard and stressful.
-
-## Chart 3
-```{r chart3, echo=FALSE}
-plot(chart_3)
-```
