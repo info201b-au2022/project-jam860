@@ -8,6 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/chart%201.R")
 source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/chart%202.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/chart%203.R")
 source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/Aggregate%20Table%20Script.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -28,7 +29,7 @@ kable(table, col.names = c("Age", "Socially Connected with People", "Meals Eaten
 When looking at the state of students' mental health, it's important to consider how the connections with others impact a person's mental health and their habits. When we look at the correlations between the social connections and meals eaten on average per day, we notice a couple of trends. Those that are socially connected eat more on average compared to those that aren't socially connected. Those that struggle with their mental health seem to struggle more with unhealthier habits. Being socially connected to others can have a big impact on one's mental health and people's habits, whether it be with family or friends. We believe that building connections and relationships between students can have a positive impact on their mental health and some of their habits.  
 
 ## Chart 1: Methods of Self-Care
-```{r pressure, echo=FALSE}
+```{r chart1, echo=FALSE}
 plot(chart_1)
 ```
 
@@ -41,7 +42,7 @@ make the groups more readable. In addition, I saw students liked listening to mu
 playing video games, and more.
 
 ## Chart 2
-```{r pressure1, echo=FALSE}
+```{r chart2, echo=FALSE}
 plot(chart_2)
 ```
 
@@ -49,3 +50,6 @@ We decided to use a pie chart because we wanted to explore how one's GPA influen
 column of three different mental conditions (depression, anxiety and panic attack) and CGPA. The final result shows that students with a higher CGPA normally are more likely to have one of these conditions. Maintaining a high GPA is hard and stressful.
 
 ## Chart 3
+```{r chart3, echo=FALSE}
+plot(chart_3)
+```

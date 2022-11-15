@@ -9,7 +9,7 @@ library("stringr")
  district_totals <- district_mental_health$Total
  
  
- dotchart(district_totals,labels= district_mental_health$DISTRICT,cex=.7, bg = "green",
+ chart_3 <- dotchart(district_totals,labels= district_mental_health$DISTRICT,cex=.7, bg = "green",
           main="Mental Health Cases in Different Districts", 
           xlab="District Total Cases")
 
