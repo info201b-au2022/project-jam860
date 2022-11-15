@@ -4,22 +4,36 @@ district_mental_health <- read.csv("/Users/shradhashankar/Documents/info201/assi
 view(district_mental_health)
 
 
+Max_Cases <- district_mental_health %>%
+  filter(Total == max(Total))%>%
+  select(Total)
+
+
+Max_Cases_District <- list(district_mental_health %>%
+                              filter(Total == max(Total))%>%
+                              select(DISTRICT))
+
+Highest_Suicide_Cases <-  list(district_mental_health %>%
+                                 filter(SUICIDE_ATTEMPT_CASES == max(SUICIDE_ATTEMPT_CASES))%>%
+                                 select(SUICIDE_ATTEMPT_CASES))
+
+
+Highest_Suicide_District <- list(district_mental_health %>%
+                                    filter(SUICIDE_ATTEMPT_CASES == max(SUICIDE_ATTEMPT_CASES))%>%
+                                    select(DISTRICT))
+
+
+highest_common_diagnosis_cases <- list(district_mental_health %>%
+                                          filter(COMMON_MENTAL._DISORDER.CMD. == max(COMMON_MENTAL._DISORDER.CMD.))%>%
+                                          select(COMMON_MENTAL._DISORDER.CMD.))
 
 
 
-summury_info <- list("Max Cases" = district_mental_health %>%
-                         filter(Total == max(Total))%>%
-                         select(Total), "Max Cases District" = list(district_mental_health %>%
-                                                                      filter(Total == max(Total))%>%
-                                                                      select(DISTRICT)), "Highest Suicide Cases" = list(district_mental_health %>%
-                                                                                                                          filter(SUICIDE_ATTEMPT_CASES == max(SUICIDE_ATTEMPT_CASES))%>%
-                                                                                                                          select(SUICIDE_ATTEMPT_CASES)), "Highest Suicide District" = list(district_mental_health %>%
-                                                                                                                                                                                              filter(SUICIDE_ATTEMPT_CASES == max(SUICIDE_ATTEMPT_CASES))%>%
-                                                                                                                                                                                              select(DISTRICT)), "highest common diagnosis cases" = list(district_mental_health %>%
-                                                                                                                                                                                                                                                           filter(COMMON_MENTAL._DISORDER.CMD. == max(COMMON_MENTAL._DISORDER.CMD.))%>%
-                                                                                                                                                                                                                                                           select(COMMON_MENTAL._DISORDER.CMD.))       )
 
 
+summury_info <- list(Max_Cases, Max_Cases_District, Highest_Suicide_Cases, Highest_Suicide_District, highest_common_diagnosis_cases)
+
+names(summury_info) <- c("Max_Cases", "Max_Cases_District", "Highest_Suicide_Cases", "Highest_Suicide_District", "highest_common_diagnosis_cases")
 
 view(summury_info)
                   
