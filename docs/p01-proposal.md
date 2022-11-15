@@ -75,40 +75,39 @@ students are often faced with. We want to provide resources that everyone can do
 such as self-care, visiting the counseling center or mental health workshops
 in a student’s city.
 
-2. **Do students often seek for resources to address their mental health
-problem?**
-This is also another important question since mental health is often
-stigmatized and students do not get the help that they need. It’s important
-that students can find resources through e-mail, text messaging and events in
+2. **How have students taken care of their mental health through self-care?**
+This is also another important question since self-care is something that all
+students can do to take care of themselves. It’s important that students can
+find examples and strategies through e-mail, text messaging and workshops in
 order for students to keep their mental health in-check.
 
-3. **What are the leading factors that impact a student’s mental health?**
+3. **What are some factors that impact a student’s mental health and their habits?**
 It’s important to realize that there are a multitude of external factors that
 can impact in addition to school. By learning what causes mental health
 problems for students, we can focus on finding a variety of resources that
 help with stressful situations.
 
 ## The Dataset
-Before discussing the direct relationship between the dataset and the research 
-question, I would like to introduce the observations of our dataset. The rows 
-in our first dataset are our observations, which are college students. The 
-columns in our first dataset are gender, age, major, current year, CGPA, marital 
-status, and whether they have the following different kinds of mental illnesses. 
-The second dataset collected students' psychological disorders due to online 
-courses and academic stress during the New Crown epidemic. Also, this dataset 
-explores the correlation between students' stress relief methods and the emergence 
-of psychological disorders. The third dataset collects the types and proportions 
-of each psychological disorder in the last two years to help us do a deeper 
-extension of the study. First, in order to find the common psychological problems 
-of students, three common psychological disorders are selected in our dataset: 
-depression, anxiety and panic attack. through the dataset we can know whether 
+Before discussing the direct relationship between the dataset and the research
+question, I would like to introduce the observations of our dataset. The rows
+in our first dataset are our observations, which are college students. The
+columns in our first dataset are gender, age, major, current year, CGPA, marital
+status, and whether they have the following different kinds of mental illnesses.
+The second dataset collected students' psychological disorders due to online
+courses and academic stress during the New Crown epidemic. Also, this dataset
+explores the correlation between students' stress relief methods and the emergence
+of psychological disorders. The third dataset collects the types and proportions
+of each psychological disorder in the last two years to help us do a deeper
+extension of the study. First, in order to find the common psychological problems
+of students, three common psychological disorders are selected in our dataset:
+depression, anxiety and panic attack. Through the dataset we can know whether
 students have one or more of the three psychological disorders. Second, the dataset
-asks whether students seek help from specialists or experience counseling, which 
-answers the question of students' perceptions and attitudes toward dealing with 
+asks whether students seek help from specialists or experience counseling, which
+answers the question of students' perceptions and attitudes toward dealing with
 mental illnesses. Third, to find the main factors affecting students' mental health,
 the dataset collects information about students' school such as CPGA, major, current
-year, and other factors such as marital status. These data allow us to explore the 
-real causes of students' psychological problems. 
+year, and other factors such as marital status. This data allow us to explore the
+real causes of students' psychological problems.
 
 Here is the URL of origin of the datasets:
 * https://www.kaggle.com/datasets/shariful07/student-mental-health?resource=download
@@ -118,24 +117,24 @@ Here is the URL of origin of the datasets:
 
 You can also see the datasets from our docs folder in Github under `~/project-jam860/data/`
 
-MD SHARIFUL ISLAM, the creator of the first dataset, wanted to use this dataset to explore 
+MD SHARIFUL ISLAM, the creator of the first dataset, wanted to use this dataset to explore
 the impact of mental health on CGPA. He collected the data through Google Form, and no one
 has funded the dataset. The only potential beneficiary is him personally, because he needs
 to use this dataset to make conclusions about his research topic. The data is confirmed in
 three ways: first, the link to this Google Form is only sent to the target student; second,
-the student is asked to fill in a lot of school-related information (e.g., major, grade 
+the student is asked to fill in a lot of school-related information (e.g., major, grade
 level, etc.), which raises the threshold for intentional mischief; and third, this dataset
-does not directly benefit anyone, so no one would intentionally falsify the data in it. 
-Therefore, we believe that this data can be relied upon.  I attribute this to the source 
-of the data, because sometimes the data is not publicly available or there is a fee. The 
+does not directly benefit anyone, so no one would intentionally falsify the data in it.
+Therefore, we believe that this data can be relied upon. I attribute this to the source
+of the data, because sometimes the data is not publicly available or there is a fee. The
 author of the second dataset is Kunal Chaturvedi, who wanted to explore the impact of Covid
-on the mental health of students. Similar to the first author, he also collected the data 
+on the mental health of students. Similarly to the first author, he also collected the data
 through an online form. The rest of it can be referred to the first section. For the third
-dataset, his author is the Health and Family Welfare Department of Karnataka and aims to 
-explore the situation and number of people with mental illness in different regions. The 
-government will get these data directly through the health care system, which is very reliable
-in most cases, and there is no need for the government to cheat on this topic. I got these 
-datasets through Kaggle, a free dataset sharing site.
+dataset, the author is the Health and Family Welfare Department of Karnataka, and aims to
+explore the situation and number of people with mental illness in different regions. The
+government receives their data directly through the health care system, which makes it very reliable
+in most cases. Because they are e government entity, there is no need for the government to
+cheat on this topic. These datasets were obtained through Kaggle, a free dataset sharing site.
 
 ## Expected Implications
 Some policymakers ignore students' mental health, while others place great importance on
