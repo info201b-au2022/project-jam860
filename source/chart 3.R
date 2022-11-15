@@ -13,3 +13,7 @@ library("stringr")
           main="Mental Health Cases in Different Districts", 
           xlab="District Total Cases")
 
+# I included this chart to show how many cases of mental health issues ranging from mild to extremely severe in every district.
+# This is very useful information as it
+#
+#
