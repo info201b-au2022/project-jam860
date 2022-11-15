@@ -6,9 +6,9 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-source("/Users/jnguy/Documents/info201/projects/project-jam860/source/chart 1.R")
-source("/Users/jnguy/Documents/info201/projects/project-jam860/source/chart 2.R")
-source("/Users/jnguy/Documents/info201/projects/project-jam860/source/Aggregate Table Script.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/chart%201.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/chart%202.R")
+source("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/source/Aggregate%20Table%20Script.R")
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
