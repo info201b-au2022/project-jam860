@@ -1,6 +1,6 @@
 # This source file calculates summary information to be included in our reports.
 library(tidyverse)
-district_mental_health <- read.csv("/Users/shradhashankar/Documents/info201/assignments/project-jam860/data/District_Wise_Mental_Health_Patients_2021-22.csv",stringsAsFactors = FALSE )
+district_mental_health <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/District_Wise_Mental_Health_Patients_2021-22.csv",stringsAsFactors = FALSE )
 view(district_mental_health)
 
 
