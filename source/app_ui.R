@@ -19,7 +19,10 @@ source("tabs/tab_panel_report.R")
 ui <- navbarPage(
   title = "Eliminating the Stigma",
   position = "fixed-top",
-
+  tags$style(HTML(" body {background-color: #fffff0;}")),
+  tags$style(HTML(".navbar-default {background-color: #fffacd;}")),
+  
+  
   # A simple footer
   footer = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
