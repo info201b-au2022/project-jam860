@@ -17,22 +17,14 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
-  title = "Project Example",
+  title = "Eliminating the Stigma",
   position = "fixed-top",
-
-  # A simple header
-  header = list(
-    tags$style(type = "text/css", "body {padding-top: 70px;}"),
-    hr(),
-    HTML("... Project Header... "),
-    hr()
-  ),
 
   # A simple footer
   footer = list(
     tags$style(type = "text/css", "body {padding-top: 70px;}"),
     hr(),
-    HTML("... Project Footer ... "),
+    HTML("Eliminating the Stigma Surrounding Mental Health | Final Deliverable | INFO 201 | Autumn 2022 | James Nguyen, Shradha Shankar, Alex Chen"),
     hr()
   ),
 

@@ -19,11 +19,18 @@ server <- function(input, output) {
       summarize(students = length(self_care)) %>%
       subset(self_care %in% input$checkGroup)
     
-    chart1 <- ggplot(data, aes(x = reorder(self_care, students), y = students)) +
-      labs(y = "Students", x = "Methods of Self Care") +
-      geom_bar(fill= "pink", color = "pink", stat ="identity") 
-    
-    return(ggplotly(chart1))
+    fig <- data %>%
+      plot_ly(
+        x = ~reorder(self_care, -students),
+        y = ~students,
+        name = "test",
+        type = "bar",
+        hovertemplate = paste('Method of Self-Care: %{x}<br>', 
+                              '<br>Students: %{y}<extra></extra>') 
+      ) %>%
+      layout(xaxis  = list(title = "Methods of Self-Care"),
+             yaxis = list(title = "Number of Students"))
+    return(fig)
     
   })
   

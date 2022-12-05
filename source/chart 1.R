@@ -18,7 +18,7 @@ data <- data_all %>%
   filter(students >= 20) %>%
   arrange(desc(students)) 
 
-chart_1 <- ggplot(data, aes(x = reorder(self_care, students), y = students)) +
+chart_1 <- ggplot(data, aes(x = reorder(self_care, -students), y = students)) +
   labs(y = "Students", x = "Methods of Self Care") +
   geom_bar(fill= "pink", color = "pink", stat ="identity") +
   coord_flip()
