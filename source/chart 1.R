@@ -9,11 +9,13 @@ library("stringr")
 data_all <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/COVID-19%20Survey%20Student%20Responses.csv")
 data_all <- rename(data_all, self_care = Stress.busters)
 
+View(data)
+View(data_all)
 data <- data_all %>%
   select(self_care) %>%
   group_by(self_care) %>%
   summarize(students = length(self_care)) %>%
-  filter(students >= 50) %>%
+  filter(students >= 20) %>%
   arrange(desc(students)) 
 
 chart_1 <- ggplot(data, aes(x = reorder(self_care, students), y = students)) +
