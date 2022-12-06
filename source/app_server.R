@@ -9,7 +9,7 @@
 
 library(shiny)
 
-course_input_chart1 <- selectInput(
+course_input_chart2 <- selectInput(
   inputId = "course_input",
   label = "Course Kind",
   choices = c("Engineering", "Islamic education", "BIT", "Laws","Mathemathics",
