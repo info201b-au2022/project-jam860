@@ -34,28 +34,28 @@ server <- function(input, output) {
     
   })
   
-    output$chart2 <- renderPlotly({
-    SMH <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/Student%20Mental%20health%20%E2%80%94%E2%80%94database.csv")
+  output$chart2 <- renderPlotly({
     SMH <- rename(SMH, CGPA_data = What.is.your.CGPA.)
     SMH <- mutate(SMH, has_mental_illness = Do.you.have.Depression.== "Yes" | Do.you.have.Anxiety. == "Yes" | Do.you.have.Panic.attack. == "Yes")
     SMH$has_mental_illness <- sub("TRUE","1",SMH$has_mental_illness)
     SMH$has_mental_illness <- sub("FALSE","0",SMH$has_mental_illness)
     
     data2 <- SMH %>%
-      filter(SMH[[input$What.is.your.course.]])
+      filter(What.is.your.course. == input$course_input) %>%
       group_by(CGPA_data) %>%
       summarize(total_num_mental_illness = sum(as.numeric(has_mental_illness))) 
     
     chart2 <- plot_ly(data2, labels= ~CGPA_data, values = ~total_num_mental_illness, type = 'pie') %>%
-        add_annotations(
-          y = 1, 
-          x = 0.1, 
-          text ="CGPA_data by courser", 
-          showarrow = F,
-          font = list(size = 15)
-        )
+      add_annotations(
+        y = 1, 
+        x = 0.1, 
+        text ="CGPA_data by course", 
+        showarrow = F,
+        font = list(size = 15)
+      )
     chart2
   })
+}
   
   #add more charts here
 }
