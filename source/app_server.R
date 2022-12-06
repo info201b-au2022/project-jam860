@@ -9,6 +9,16 @@
 
 library(shiny)
 
+course_input_chart1 <- selectInput(
+  inputId = "course_input",
+  label = "Course Kind",
+  choices = c("Engineering", "Islamic education", "BIT", "Laws","Mathemathics",
+              "Pendidikan islam","BCS","Human Resources","Irkhs","Psychology","KENMS",
+              "Accounting","Marine science","ENM","KOE"),
+  selected = "Engineering"
+)
+
+
 server <- function(input, output) {
   output$chart1 <- renderPlotly({
     data_all <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/COVID-19%20Survey%20Student%20Responses.csv")
