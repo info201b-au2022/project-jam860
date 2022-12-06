@@ -4,6 +4,7 @@ library(shiny)
 source("app_server.R")
 
 tab_panel_chart2 <- tabPanel(
+  "Chart 2",
    h1("The relationship between CGPA and mental health"),
    course_input_chart2,
    plotlyOutput("chart2"),
