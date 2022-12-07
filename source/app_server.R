@@ -59,9 +59,9 @@ server <- function(input, output) {
       add_annotations(
         y = 1, 
         x = 0.1, 
-        text ="#Mental illness in different CGPA", 
+        text ="# of students with Mental Health Disorder", 
         showarrow = F,
-        font = list(size = 12)
+        font = list(size = 10)
       )
     chart2
   })
