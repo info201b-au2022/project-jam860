@@ -12,9 +12,8 @@ library(shiny)
 course_input_chart2 <- selectInput(
   inputId = "course_input",
   label = "Course Kind",
-  choices = c("Engineering", "Islamic education", "BIT", "Laws","Mathemathics",
-              "Pendidikan islam","BCS","Human Resources","Irkhs","Psychology","KENMS",
-              "Accounting","Marine science","ENM","KOE"),
+  choices = c("Engineering", "Islamic education", "BIT", "Laws",
+              "Pendidikan islam","BCS","Irkhs","KENMS","KOE"),
   selected = "Engineering"
 )
 
