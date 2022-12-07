@@ -5,7 +5,7 @@ source("app_server.R")
 
 tab_panel_chart2 <- tabPanel(
   "Chart 2",
-   h1("The relationship between CGPA and mental health"),
+   h1("The relationship between CGPA and mental health disorder"),
    course_input_chart2,
    plotlyOutput("chart2"),
    p("This Pie Chart shows the relationship between students' CGPA and mental 
