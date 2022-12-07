@@ -7,7 +7,6 @@ tab_panel_report <-tabPanel(
   "Report",
 
   fluidRow(
-      6,
       includeMarkdown("tabs/report.md")
   )
 
