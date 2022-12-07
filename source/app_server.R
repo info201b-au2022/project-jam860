@@ -45,6 +45,7 @@ server <- function(input, output) {
   })
   
   output$chart2 <- renderPlotly({
+    SMH <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-jam860/main/data/Student%20Mental%20health%20%E2%80%94%E2%80%94database.csv")
     SMH <- rename(SMH, CGPA_data = What.is.your.CGPA.)
     SMH <- mutate(SMH, has_mental_illness = Do.you.have.Depression.== "Yes" | Do.you.have.Anxiety. == "Yes" | Do.you.have.Panic.attack. == "Yes")
     SMH$has_mental_illness <- sub("TRUE","1",SMH$has_mental_illness)
