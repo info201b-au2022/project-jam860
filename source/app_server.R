@@ -59,7 +59,7 @@ server <- function(input, output) {
       add_annotations(
         y = 1, 
         x = 0.1, 
-        text ="# of students with Mental Health Disorder", 
+        text ="% of students with Mental Health Disorder", 
         showarrow = F,
         font = list(size = 10)
       )
