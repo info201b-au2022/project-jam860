@@ -66,7 +66,4 @@ server <- function(input, output) {
     chart2
   })
 }
-  
-  #add more charts here
-
 

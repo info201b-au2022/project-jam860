@@ -1,0 +1,13 @@
+name: source
+title: source
+username:
+account: jam860
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7844471
+bundleId: 6608708
+url: https://jam860.shinyapps.io/source/
+when: 1670473624.34279
+lastSyncTime: 1670473624.3428
+asMultiple: FALSE
+asStatic: FALSE
